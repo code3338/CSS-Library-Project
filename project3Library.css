@@ -82,9 +82,15 @@ body {
   background-image:url("https://thumbs.dreamstime.com/b/colorful-garage-doors-raw-55561375.jpg");
   width:100%;
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-attachment:fixed;
   background-position:top;
+}
+
+.inputParaName {
+  text-align:center;
+  font-weight:bold;
+  font-size:20px;
 }
 
 main {
@@ -107,6 +113,7 @@ h4 {
 
 .tryItPara {
   text-align:center;
+  font-size:20px;
 }
 
 .funHeading {
@@ -187,11 +194,35 @@ footer {
   background:-webkit-linear-gradient(purple,pink,blue);
 }
 
+#topNav {
+  display:flex;
+}
+
+.topNavDiv {
+   flex:1;
+
+}
+
+.topNavLink {
+  font-weight:bold;
+  color:black;
+  font-size:20px;
+}
+
+.topNavLink:hover {
+  color:blue;
+}
+
 pre {
   background-color:	#cccccc;
-  width:50%;
+  width:70%;
   margin:auto;
 }
+
+.htmlCode {
+  font-size:17px;
+}
+
 
 .formsDiv {
   text-align:center;
@@ -207,7 +238,7 @@ pre {
 
 .dropdownInput:hover {
   font-size:20px;
-  backgrouclass="introPara"nd-color:#ff99cc;
+
 }
 
 .inputPara {

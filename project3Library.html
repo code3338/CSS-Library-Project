@@ -11,6 +11,20 @@
       <h1>
         GarageCSS
       </h1>
+      <nav id="topNav">
+        <div class="topNavDiv">
+          <a href="#headingsTarget" class="topNavLink">Headings</a>
+        </div>
+        <div class="topNavDiv">
+          <a href="#buttonsTarget" class="topNavLink">Buttons</a>
+        </div>
+        <div class="topNavDiv">
+          <a href="#formsTarget" class="topNavLink">Forms</a>
+        </div>
+        <div class="topNavDiv">
+          <a href="#gridsTarget" class="topNavLink">Grids</a>
+        </div>
+      </nav>
     </div>
     <header>
       <nav id="bodyNav">
@@ -47,6 +61,7 @@
       </div>
       <div id="headingsContainer">
         <div>
+          <a name="headingsTarget"></a>
           <h4>Headings:</h4>
           <p>Use different style headings to style your page. Simply add the class funHeading, colorfulHeading, or fontHeading, to any h1 thru h6 tag. </p>
         </div>
@@ -64,12 +79,23 @@
         <div>
           <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
           <pre>
-                lorem ipsum
+            <xmp class="htmlCode">
+                <div>
+                  <h2 class="funHeading">FunHeading</h2>
+                </div>
+                <div>
+                  <h2 class="colorfulHeading">ColorfulHeading</h2>
+                </div>
+                <div>
+                  <h2 class="fontHeading">FontHeading</h2>
+                </div>
+            </xmp>
           </pre>
         </div>
       </div> <br /><br />
       <div id="btnContainer">
         <div>
+          <a name="buttonsTarget"></a>
           <h4>Buttons:</h4>
           <p>Use different styled buttons for your page. Simply add the class colorfulBtn, clickMeBtn, or hoverBtn, to any button tag or type. </p>
         </div>
@@ -87,12 +113,23 @@
         <div>
           <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
           <pre>
-                lorem ipsum
+            <xmp class="htmlCode">
+                <div>
+                  <button class="colorfulBtn">Wow!</button>
+                </div>
+                <div>
+                  <button class="clickMeBtn">Click Me!</button>
+                </div>
+                <div>
+                  <button class="hoverBtn">Beautiful!</button>
+                </div>
+            </xmp>
           </pre>
         </div>
       </div> <br /><br />
       <div id="formsContainer">
         <div>
+          <a name="formsTarget"></a>
           <h4>Forms:</h4>
           <p>Use the following styles on input and dropdown elements. Hover over the input fields, and the dropdown field below. Simply add the class formInput, or dropdownInput.</p>
         </div>
@@ -108,7 +145,7 @@
           </div>
           <div class="formsDiv">
             <div>
-              <p  class="inputPara">(.dropdownInput)</p>
+              <p class="inputPara">(.dropdownInput)</p>
               <label for="favFood">What is your favorite food?</label>
               <select name="favFood" class="dropdownInput">
                 <option value="pizza">Pizza</option>
@@ -121,13 +158,40 @@
         </div>
         <div>
           <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <p class="inputParaName">.formInput </p>
           <pre>
-                lorem ipsum
+            <xmp class="htmlCode">
+                <div>
+                  <label for="firstname">First Name:</label>
+                  <input type="text" name="firstname"
+                  class="formInput"><br />
+
+                  <label for="lastname">Last Name:</label>
+                  <input type="text" name="lastname"
+                  class="formInput" >
+                </div>
+            </xmp>
+          </pre>
+          <p class="inputParaName">.dropdownInput</p>
+          <pre>
+            <xmp class="htmlCode">
+                <div>
+                  <label for="favAnimal">What is your favorite
+                  food?</label>
+                  <select name="favAnimal" class="dropdownInput">
+                    <option value="elephant">Elephant</option>
+                    <option value="monkeys">Monkey's</option>
+                    <option value="lion">lion</option>
+                    <option value="fish">Fish</option>
+                  </select>
+                </div>
+            </xmp>
           </pre>
         </div>
       </div> <br /><br />
       <div id="gridContainer">
         <div>
+          <a name="gridsTarget"></a>
           <h4>Grids:</h4>
           <p>Use the following grid styles. Simply add the class "gridDiv" to the column container, and the div's(or colunns) within the container add the class "col" and a second class of "col_1 to col_5" to create different styles of grids. </p>
         </div>
@@ -163,12 +227,16 @@
         <div>
           <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
           <pre>
-                lorem ipsum
+            <xmp class="htmlCode">
+              <div class="gridDiv">
+                <div class="col col_1"></div>
+                <div class="col col_5"></div>
+              </div>
+            </xmp>
           </pre>
         </div>
       </div> <br /><br />
     </main>
-
     <footer>
       @Copyright 2018
     </footer>
