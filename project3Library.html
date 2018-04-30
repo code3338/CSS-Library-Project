@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="project3Library.css">
+  </head>
+  <body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-I5zetWpHjXA_Jgeey0mW14Ijl0R3cY604mQmCpjSJN8WyQbq9A" id="butterflyImage">
+    <nav>
+      <a></a>
+      <a></a>
+    </nav>
+    <div id="libraryHeading1">
+      <h1>
+        GarageCSS
+      </h1>
+    </div>
+    <header>
+      <nav id="bodyNav">
+        <ul>
+          <li class="navBtn">
+            <a href="project3LibraryDocumentationPage.html"target="_blank" >Download</a>
+          </li>
+          <li class="navBtn">
+            <a href="#docHeadingTarget">Documentation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main1">
+      <div id="intro">
+        <p>
+          GarageCSS is a simple JavaScript CSS library with a variety of different features. Features include <b>headings</b>,<b>links</b>,<b>buttons</b>, <b>nav bars</b>, <b>grids</b>,and <b>forms</b>.
+        </p>
+      </div>
+      <div  class="introPara">
+        <h2>Getting Started:</h2>
+        <ol class="introPara">
+          <li>Select the download button at the top of the page, and download the css file.
+          </li>
+          <li>In your HTML file, link the css file in between the <head> tags.
+          </li>
+          <li>You are now ready to begin using GarageCSS.
+          </li>
+        </ol>
+      </div>
+      <div>
+        <a name="docHeadingTarget"></a>
+        <h3 id="documentationHeading">Documentation:</h3>
+      </div>
+      <div id="headingsContainer">
+        <div>
+          <h4>Headings:</h4>
+          <p>Use different style headings to style your page. Simply add the class funHeading, colorfulHeading, or fontHeading, to any h1 thru h6 tag. </p>
+        </div>
+        <div id="exampleHeadingsContainer">
+          <div class="exampleHeadingsDiv" id="exampleFunHeading">
+            <h2 class="funHeading">FunHeading</h2>
+          </div>
+          <div class="exampleHeadingsDiv">
+            <h2 class="colorfulHeading">ColorfulHeading</h2>
+          </div>
+          <div class="exampleHeadingsDiv">
+            <h2 class="fontHeading">FontHeading</h2>
+          </div>
+        </div>
+        <div>
+          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <pre>
+                lorem ipsum
+          </pre>
+        </div>
+      </div> <br /><br />
+      <div id="btnContainer">
+        <div>
+          <h4>Buttons:</h4>
+          <p>Use different styled buttons for your page. Simply add the class colorfulBtn, clickMeBtn, or hoverBtn, to any button tag or type. </p>
+        </div>
+        <div id="exampleButtonsContainer">
+          <div class="btnDiv">
+            <button type="button" class="colorfulBtn">ColorfulBtn</button>
+          </div>
+          <div class="btnDiv">
+            <button type="button" class="clickMeBtn">Click me!</button>
+          </div>
+          <div class="btnDiv">
+            <button type="button" class="hoverBtn">Hover!</button>
+          </div>
+        </div>
+        <div>
+          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <pre>
+                lorem ipsum
+          </pre>
+        </div>
+      </div> <br /><br />
+      <div id="formsContainer">
+        <div>
+          <h4>Forms:</h4>
+          <p>Use the following styles on input and dropdown elements. Hover over the input fields, and the dropdown field below. Simply add the class formInput, or dropdownInput.</p>
+        </div>
+        <div id="exampleformsContainer">
+          <div class="formsDiv">
+            <div>
+              <p class="inputPara">(.formInput)</p>
+              <label for="firstname">First Name:</label>
+              <input type="text" name="firstname" class="formInput" placeholder="enter first name"><br /><br />
+              <label for="lastname">Last Name:</label>
+              <input type="text" name="lastname" class="formInput" placeholder="enter last name">
+            </div><br />
+          </div>
+          <div class="formsDiv">
+            <div>
+              <p  class="inputPara">(.dropdownInput)</p>
+              <label for="favFood">What is your favorite food?</label>
+              <select name="favFood" class="dropdownInput">
+                <option value="pizza">Pizza</option>
+                <option value="frenchFries">French Fries</option>
+                <option value="chicken">Chicken</option>
+                <option value="fish">Fish</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <pre>
+                lorem ipsum
+          </pre>
+        </div>
+      </div> <br /><br />
+      <div id="gridContainer">
+        <div>
+          <h4>Grids:</h4>
+          <p>Use the following grid styles. Simply add the class "gridDiv" to the column container, and the div's(or colunns) within the container add the class "col" and a second class of "col_1 to col_5" to create different styles of grids. </p>
+        </div>
+        <div> The div container below has a class of "gridDiv", and all column divs inside the gridDiv have the same two classes (class="col col_1")</p>
+        </div>
+        <div id="exampleGridsContainer">
+          <div class="gridDiv">
+            <div class="col col_1"></div>
+            <div class="col col_1"></div>
+            <div class="col col_1"></div>
+            <div class="col col_1"></div>
+            <div class="col col_1"></div>
+            <div class="col col_1"></div>
+            <div class="col col_1"></div>
+            <div class="col col_1"></div>
+          </div><br /><br />
+          <div>
+            <p>This div container has a class of "gridDiv", and the column divs inside the gridDiv container have one class in common (class="col"), and one class that is different(class="col_1" for the column on the left, and class="col_5" for the column on the right)</p>
+            <p>Hover over the columns to see the background color change.</p>
+          </div>
+          <div class="gridDiv">
+            <div class="col col_1"></div>
+            <div class="col col_5"></div>
+          </div>
+          <div>
+            <p>The following div container has a class of "gridDiv", and the column divs inside the gridDiv have the same two classes(class="col col_4").
+          </div>
+          <div class="gridDiv">
+            <div class="col col_4"></div>
+            <div class="col col_4"></div>
+          </div>
+        </div>
+        <div>
+          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <pre>
+                lorem ipsum
+          </pre>
+        </div>
+      </div> <br /><br />
+    </main>
+
+    <footer>
+      @Copyright 2018
+    </footer>
+  </body>
+</html>
