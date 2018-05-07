@@ -1,0 +1,479 @@
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.downloadPara {
+  text-align:center;
+  margin:auto;
+  font-size:20px;
+  width:40%;
+}
+
+.bodyNav {
+  text-align:center;
+}
+
+#webpageTitle {
+  color:#004466;
+  font-weight:bold;
+}
+
+#libraryHeading1 {
+  position:fixed;
+  top:0;
+  width:100%;
+  background:linear-gradient(pink,blue,purple);
+  text-align:center;
+  z-index:1;
+  color:blue;
+}
+
+#bodyNav {
+  margin-top:12%;
+  margin-left:33%;
+  width:40%;
+  padding-left:5%;
+}
+
+#intro {
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+}
+
+ul {
+  display:flex;
+}
+
+nav ul li a {
+  border:solid 1px #33A5FF;
+  background-color:#33A5FF;
+  border-radius:4px;
+  text-decoration:none;
+  padding:2px;
+  font-size:20px;
+  font-weight:2px;
+  color:white;
+  flex:1;
+}
+
+nav ul li a:hover {
+  box-shadow:0px 0px 9px #33A5FF;
+}
+
+.navBtn {
+  list-style-type:none;
+  margin-right:1%;
+  margin-left:4%;
+  background-color:#33A5FF;
+}
+
+a:hover {
+  cursor:pointer;
+}
+
+.inputParaName {
+  text-align:center;
+  font-weight:bold;
+  font-size:20px;
+}
+
+main {
+  padding:1% 3% 1% 3%;;
+}
+
+#documentationHeading {
+  font-size:23px;
+}
+
+.introPara {
+  margin-bottom:5%;
+  background-color: #99b3ff;
+}
+
+h4 {
+  font-size:20px;
+  text-align:left;
+}
+
+.tryItPara {
+  text-align:center;
+  font-size:20px;
+}
+
+.funHeading {
+  background:-webkit-linear-gradient(red,white,blue);
+  max-width:100%;
+  text-align:center;
+  font-weight:bold;
+}
+
+.colorfulHeading {
+  background:-webkit-linear-gradient(yellow,purple,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  font-weight:bold;
+}
+
+footer {
+  text-align:center;
+}
+
+.fontHeading {
+  font-size:25px;
+  color:#104e8b;
+  font-family: sans-serif;
+  text-shadow:3px 3px 5px #590649;
+}
+
+.exampleContainer {
+  display:flex;
+  margin:auto;
+  width:80%;
+}
+
+.exampleDiv {
+  flex:1;
+  text-align:center;
+}
+
+#exampleButtonsContainer {
+  display:flex;
+}
+
+.btnDiv {
+  flex:1;
+  text-align:center;
+}
+
+.colorfulBtn {
+  background-color:#00ace6;
+  font-size:20px;
+}
+
+.colorfulBtn:hover {
+  background:-webkit-linear-gradient(green,blue,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  font-weight:bold;
+}
+
+.clickMeBtn {
+  font-size:20px;
+  color: #cc99ff;
+  box-shadow:2px 2px 9px #cc99ff;
+  background-color:#b3b3b3;
+  cursor:pointer;
+}
+
+.clickMeBtn:hover {
+  box-shadow:2px 2px 9px #33ccff;
+}
+
+.hoverBtn {
+  font-size:20px;
+}
+
+.hoverBtn:hover {
+  background:-webkit-linear-gradient(purple,pink,blue);
+}
+
+#topNav {
+  display:flex;
+}
+
+.topNavDiv {
+   flex:1;
+
+}
+
+.topNavLink {
+  font-weight:bold;
+  color:black;
+  font-size:20px;
+}
+
+.topNavLink:hover {
+  color:blue;
+}
+
+pre {
+  background-color:	#cccccc;
+  width:70%;
+  margin:auto;
+}
+
+.htmlCode {
+  font-size:17px;
+}
+
+.formsDiv {
+  text-align:center;
+}
+
+.formInput:hover {
+  background-color: #99ccff;
+}
+
+.formInput  {
+  line-height:5px;
+}
+
+.dropdownInput {
+  font-size:20px;
+  font-weight:bold;
+}
+
+.dropdownInput:hover {
+  background-color:#0099cc;
+}
+
+
+.inputPara {
+  font-size:19px;
+  font-weight:bold;
+}
+
+.gridDiv {
+  display:flex;
+  border:solid 1px blue;
+}
+
+.col {
+  border:solid 1px blue;
+  min-height:100px;
+  margin:1em;
+}
+
+.col:hover {
+  background:linear-gradient(pink,blue,purple);
+}
+
+.col_1 {
+  flex:1;
+}
+
+.col_2 {
+  flex:2;
+}
+
+.col_3 {
+  flex:;
+}
+
+.col_4 {
+  flex:4
+}
+
+.col_5 {
+  flex:5;
+}
+
+/*Container backgrounds*/
+#headingsContainer, #headingsSizeContainer, #btnContainer, #formsContainer, #gridContainer, #fontContainer, #anchorContainer, #navbarContainer1 {
+  margin-bottom:5%;
+  background-color: #80ccff;
+  border-radius:4px;
+  padding: 4px;
+}
+
+/*heading sizes*/
+
+.heading1 {
+  font-size:50px;
+  text-align:center;
+}
+
+.heading2 {
+  font-size:45px;
+  text-align:center;
+}
+
+.heading3 {
+  font-size:40px;
+  text-align:center;
+}
+
+.heading4 {
+  font-size:35px;
+  text-align:center;
+}
+
+.heading5 {
+  font-size:30px;
+  text-align:center;
+}
+
+.heading6 {
+  font-size:25px;
+  text-align:center;
+}
+
+/*Fonts*/
+@font-face {
+  font-family:calista;
+  src:url(./calista_script/calista.ttf);
+}
+
+.calistaFont {
+  font-family:calista;
+  font-size:30px;
+}
+
+@font-face {
+  font-family: prettyFont;
+  src:url(./pretty_font/broken_heart.ttf);
+}
+
+.prettyFont {
+  font-family:prettyFont;
+  font-size:30px;
+}
+
+@font-face {
+  font-family:basicSansSerifFont;
+  src:url(./basic_font/LemonMilk.otf);
+}
+
+.basicFont {
+  font-family:basicSansSerifFont;
+  font-size:30px;
+}
+
+/*anchors*/
+.anchor1 {
+  font-size:25px;
+  font-weight:bold;
+  color:#0099CC;
+}
+
+.anchor1:hover {
+  color:#809fff;
+}
+
+.anchor:visited {
+  color:green;
+}
+
+.anchor2 {
+  font-size:25px;
+  font-weight:bold;
+  text-decoration:underline;
+  color:#005580;
+}
+
+.anchor2:hover {
+   color:#cc99ff;
+}
+
+.anchor2:visited {
+  color:green;
+}
+
+.anchor3 {
+  font-size:25px;
+  font-weight:bold;
+  font-family:sans-serif;
+  color:#1a75ff;
+  border:solid 2px;
+  background-color:
+}
+
+.anchor3:hover {
+   color:#005580;
+}
+
+/*Additional Form element styles*/
+
+.label1 {
+  text-align:center;
+}
+
+.radio1 {
+  border:solid 2px blue;
+  margin:auto;
+}
+
+.textarea1 {
+  border:solid 2px blue;
+  border-width: 5px;
+  background-image: url("https://qph.fs.quoracdn.net/main-qimg-51fa9bae900dd34893578b0fe9075909-c");
+  height:250px;
+  width:35%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.textarea1:hover {
+  border:solid 2px #ffb3ff;
+  border-width: 5px;
+}
+
+.checkbox1 {
+  border:solid 2px blue;
+}
+
+.formContainer {
+  text-align:center;
+  margin:2%;
+  border:solid 2px blue;
+}
+
+.checkboxContainer {
+  display:block;
+  position:relative;
+  margin-bottom: 12px;;
+  font-size: 20px;
+
+}
+
+.checkbox1 {
+  position:absolute;
+  opacity:0;
+  cursor:pointer;
+}
+
+.checkmark {
+ position:absolute;
+ top:0;
+ left:42%;
+ height:20px;
+ width:20px;
+ line-height:2px;
+ background-color:#eee;
+}
+
+.checkboxContainer:hover input ~ .checkmark {
+  background-color:#99ccff;
+}
+
+.checkboxContainer input:checked ~ .checkmark {
+  background-color: #0099cc;
+}
+
+.checkboxContainer .checkmark {
+  border: solid white;
+}
+
+.label1 {
+  font-size:20px;
+}
+
+/*navbar*/
+
+.navBarContainer {
+  display:flex;
+  border:solid blue;
+}
+
+.navBar {
+  flex:1;
+  text-align:center;
+  font-size:18px;
+  background-color: #00ace6;
+}
+
+.navBar:hover {
+  background-color:#80aaff;
+}

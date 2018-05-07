@@ -19,7 +19,7 @@ body {
   right:0px;
 }
 
-h1 {
+#webpageTitle {
   color:#004466;
   font-weight:bold;
 }
@@ -141,18 +141,18 @@ footer {
   text-shadow:3px 3px 5px #590649;
 }
 
-#exampleHeadingsContainer {
+.exampleContainer {
   display:flex;
   margin:auto;
   width:80%;
 }
 
-.exampleHeadingsDiv {
+.exampleDiv {
   flex:1;
   text-align:center;
 }
 
-#exampleButtonsContainer {
+.exampleButtonsContainer {
   display:flex;
 }
 
@@ -185,7 +185,6 @@ footer {
   box-shadow:2px 2px 9px #33ccff;
 }
 
-
 .hoverBtn {
   font-size:20px;
 }
@@ -200,7 +199,6 @@ footer {
 
 .topNavDiv {
    flex:1;
-
 }
 
 .topNavLink {
@@ -221,8 +219,11 @@ pre {
 
 .htmlCode {
   font-size:17px;
+  display:block;
+  margin:auto;
+  width:50%;
+  height:200px;
 }
-
 
 .formsDiv {
   text-align:center;
@@ -236,9 +237,13 @@ pre {
   line-height:5px;
 }
 
-.dropdownInput:hover {
+.dropdownInput {
   font-size:20px;
+  font-weight:bold;
+}
 
+.dropdownInput:hover {
+  background-color:#0099cc;
 }
 
 .inputPara {
@@ -281,9 +286,210 @@ pre {
   flex:5;
 }
 
-
-#headingsContainer, #btnContainer, #formsContainer, #gridContainer {
+/*Container backgrounds*/
+#headingsContainer, #headingsSizeContainer, #btnContainer, #formsContainer, #gridContainer, #fontContainer, #anchorContainer, #navbarContainer1 {
   margin-bottom:5%;
   background-color: #80ccff;
   border-radius:4px;
+  padding: 4px;
+}
+
+/*heading sizes*/
+
+.heading1 {
+  font-size:50px;
+  text-align:center;
+}
+
+.heading2 {
+  font-size:45px;
+  text-align:center;
+}
+
+.heading3 {
+  font-size:40px;
+  text-align:center;
+}
+
+.heading4 {
+  font-size:35px;
+  text-align:center;
+}
+
+.heading5 {
+  font-size:30px;
+  text-align:center;
+}
+
+.heading6 {
+  font-size:25px;
+  text-align:center;
+}
+
+/*Fonts*/
+@font-face {
+  font-family:calista;
+  src:url(./calista_script/calista.ttf);
+}
+
+.calistaFont {
+  font-family:calista;
+  font-size:30px;
+}
+
+@font-face {
+  font-family: prettyFont;
+  src:url(./pretty_font/broken_heart.ttf);
+}
+
+.prettyFont {
+  font-family:prettyFont;
+  font-size:30px;
+}
+
+@font-face {
+  font-family:basicSansSerifFont;
+  src:url(./basic_font/LemonMilk.otf);
+}
+
+.basicFont {
+  font-family:basicSansSerifFont;
+  font-size:30px;
+}
+
+/*anchors*/
+.anchor1 {
+  font-size:25px;
+  font-weight:bold;
+  color:#0099CC;
+}
+
+.anchor1:hover {
+  color:#809fff;
+}
+
+.anchor:visited {
+  color:green;
+}
+
+.anchor2 {
+  font-size:25px;
+  font-weight:bold;
+  text-decoration:underline;
+  color:#005580;
+}
+
+.anchor2:hover {
+   color:#cc99ff;
+}
+
+.anchor2:visited {
+  color:green;
+}
+
+.anchor3 {
+  font-size:25px;
+  font-weight:bold;
+  font-family:sans-serif;
+  color:#1a75ff;
+  border:solid 2px;
+  background-color:
+}
+
+.anchor3:hover {
+   color:#005580;
+}
+
+/*Additional Form element styles*/
+
+.label1 {
+  text-align:center;
+}
+
+.radio1 {
+  border:solid 2px blue;
+  margin:auto;
+}
+
+.textarea1 {
+  border:solid 2px blue;
+  border-width: 5px;
+  background-image: url("https://qph.fs.quoracdn.net/main-qimg-51fa9bae900dd34893578b0fe9075909-c");
+  height:250px;
+  width:35%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.textarea1:hover {
+  border:solid 2px #ffb3ff;
+  border-width: 5px;
+}
+
+.checkbox1 {
+  border:solid 2px blue;
+}
+
+.formContainer {
+  text-align:center;
+  margin:2%;
+  border:solid 2px blue;
+}
+
+.checkboxContainer {
+  display:block;
+  position:relative;
+  margin-bottom: 12px;;
+  font-size: 20px;
+
+}
+
+.checkbox1 {
+  position:absolute;
+  opacity:0;
+  cursor:pointer;
+}
+
+.checkmark {
+ position:absolute;
+ top:0;
+ left:42%;
+ height:20px;
+ width:20px;
+ line-height:2px;
+ background-color:#eee;
+}
+
+.checkboxContainer:hover input ~ .checkmark {
+  background-color:#99ccff;
+}
+
+.checkboxContainer input:checked ~ .checkmark {
+  background-color: #0099cc;
+}
+
+.checkboxContainer .checkmark {
+  border: solid white;
+}
+
+.label1 {
+  font-size:20px;
+}
+
+/*navbar*/
+
+.navBarContainer {
+  display:flex;
+  border:solid blue;
+}
+
+.navBar {
+  flex:1;
+  text-align:center;
+  font-size:18px;
+  background-color: #00ace6;
+}
+
+.navBar:hover {
+  background-color:#80aaff;
 }
