@@ -14,8 +14,21 @@
   width:40%;
 }
 
+.downloadPara p {
+  font-weight:bold;
+  background-color:#99b3ff;
+}
+
 .bodyNav {
   text-align:center;
+}
+
+#footer2 {
+  position:absolute;
+  bottom: 0px;
+  width:100%;
+  font-size:18px;
+  font-weight:bold;
 }
 
 body {
