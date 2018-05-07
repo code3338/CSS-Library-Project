@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+#garageCSSIntro {
+  background-color: #99b3ff;
+}
+
 .downloadPara {
   text-align:center;
   margin:auto;
@@ -477,7 +481,6 @@ pre {
 }
 
 /*navbar*/
-
 .navBarContainer {
   display:flex;
   border:solid blue;
