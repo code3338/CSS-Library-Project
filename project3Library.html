@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="garageCSSWebsite.css">
-    <link rel="stylesheet" href="garageCSS.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="w3Schools.css">
+    <link rel="stylesheet" href="garageCSSWebsite.css">
   </head>
   <body>
-    <div id="libraryHeading1">
+    <div class="libraryHeading1">
       <h1 id="webpageTitle">
-        GarageCSS
+        <a href="project3Library.html" class="titleLink">GarageCSS</a>
       </h1>
+      <div id="iconDiv">
+        <i id="icon" class="fas fa-align-justify" width="1em"></i>
+      </div>
       <nav id="topNav">
         <div class="topNavDiv">
           <a href="#headingsTarget" class="topNavLink">Headings</a>
@@ -21,32 +24,39 @@
           <a href="#fontsTarget" class="topNavLink">Fonts</a>
         </div>
         <div class="topNavDiv">
+          <a href="#anchorsTarget" class="topNavLink">Anchors</a>
+        </div>
+        <div class="topNavDiv">
           <a href="#buttonsTarget" class="topNavLink">Buttons</a>
         </div>
         <div class="topNavDiv">
           <a href="#formsTarget" class="topNavLink">Forms</a>
         </div>
         <div class="topNavDiv">
+          <a href="#tablesTarget" class="topNavLink">Tables</a>
+        </div>
+        <div class="topNavDiv">
           <a href="#gridsTarget" class="topNavLink">Grids</a>
+        </div>
+        <div class="topNavDiv">
+          <a href="#otherStylesTarget" class="topNavLink">Other</a>
         </div>
       </nav>
     </div>
-    <header>
+    <header id="bodyNavHeader">
       <nav id="bodyNav">
-        <ul>
-          <li class="navBtn">
-            <a href="project3LibraryDocumentationPage.html" target="_blank" >Download</a>
-          </li>
-          <li class="navBtn">
-            <a href="#docHeadingTarget">Documentation</a>
-          </li>
-        </ul>
+        <div class="navBtn" id="navBtnDownload">
+          <a href="project3LibraryDocumentationPage.html" target="_blank" >Download</a>
+        </div>
+        <div class="navBtn" id="navBtnDocumentation">
+          <a href="#docHeadingTarget">Documentation</a>
+        </div>
       </nav>
     </header>
     <main id="main1">
       <div id="intro">
         <p id="garageCSSIntro">
-          GarageCSS is a simple JavaScript CSS library with a variety of different features. Features include <b>headings</b>,<b>links</b>,<b>buttons</b>, <b>nav bars</b>, <b>grids</b>,and <b>forms</b>.
+          GarageCSS is a simple CSS library with a variety of different features. Features include <b>headings</b>, <b>links</b>, <b>buttons</b>,  <b>nav bars</b>, <b>grids</b>, <b>forms</b>, and <n>more<b/>.
         </p>
       </div>
       <div  class="introPara">
@@ -54,10 +64,11 @@
         <ol class="introPara">
           <li>Select the download button at the top of the page, and download the GarageCSS file.
           </li>
-          <li>In your HTML file, link the css file at the top of your HTML file.
+          <li>In your HTML file, link the garageCSS.css file to the top of your HTML file.
           </li>
           <li>
-            Also add <xmp><link rel="stylesheet" href="w3Schools.css"></xmp> to the top of your HTML file.
+            If you choose to use the radio button styles, download the w3Schools.css file by selecting the download button at the top of this page.<br>
+            After downloading the file,add <xmp><link rel="stylesheet" href="w3Schools.css"></xmp> to the top of your HTML file.
           </li>
           <li>You are now ready to begin using GarageCSS.
           </li>
@@ -77,7 +88,7 @@
           <div class="exampleDiv">
             <h2 class="funHeading">FunHeading</h2>
           </div>
-          <div cclass="exampleDiv">
+          <div class="exampleDiv">
             <h2 class="colorfulHeading">ColorfulHeading</h2>
           </div>
           <div class="exampleDiv">
@@ -98,49 +109,49 @@
                 </div>
             </textarea>
         </div>
-      </div>
-      <div id="headingsSizeContainer">
-        <div>
-          <p>Use h1-h6 heading tags with class heading1-heading6 to style headings centered on page.</p>
+        <div id="headingsSizeContainer">
+          <div>
+            <p>Use h1-h6 heading tags with class heading1-heading6 to style headings centered on page.</p>
+          </div>
+          <div>
+            <div class="exampleHeadingsSizeDiv">
+              <h1 class="heading1">Heading 1</h1>
+            </div>
+            <div class="exampleHeadingsSizeDiv">
+              <h2 class="heading2">Heading 2</h2>
+            </div>
+            <div class="exampleHeadingsSizeDiv">
+              <h3 class="heading3">Heading 3</h3>
+            </div>
+            <div class="exampleHeadingsSizeDiv">
+              <h4 class="heading4">Heading 4</h4>
+            </div>
+            <div class="exampleHeadingsSizeDiv">
+              <h5 class="heading5">Heading 5</h5>
+            </div>
+            <div class="exampleHeadingsSizeDiv">
+              <h6 class="heading6">Heading 6</h6>
+            </div>
+          </div>
+          <div>
+            <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+              <textarea class="htmlCode" disabled>
+                  <div>
+                    <h1 class="heading1">Heading 1</h1>
+                  </div>
+                  <div>
+                    <h3 class="heading3">Heading 3</h3>
+                  </div>
+                  <div>
+                    <h4 class="heading4">Heading 4</h4>
+                  </div>
+                  <div>
+                    <h5 class="heading5">Heading 5</h5>
+                  </div>
+              </textarea>
+          </div>
         </div>
-        <div>
-          <div class="exampleHeadingsSizeDiv">
-            <h1 class="heading1">Heading 1</h1>
-          </div>
-          <div class="exampleHeadingsSizeDiv">
-            <h2 class="heading2">Heading 2</h2>
-          </div>
-          <div class="exampleHeadingsSizeDiv">
-            <h3 class="heading3">Heading 3</h3>
-          </div>
-          <div class="exampleHeadingsSizeDiv">
-            <h4 class="heading4">Heading 4</h4>
-          </div>
-          <div class="exampleHeadingsSizeDiv">
-            <h5 class="heading5">Heading 5</h5>
-          </div>
-          <div class="exampleHeadingsSizeDiv">
-            <h6 class="heading6">Heading 6</h6>
-          </div>
-        </div>
-        <div>
-          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
-            <textarea class="htmlCode" disabled>
-                <div>
-                  <h1 class="heading1">Heading 1</h1>
-                </div>
-                <div>
-                  <h3 class="heading3">Heading 3</h3>
-                </div>
-                <div>
-                  <h4 class="heading4">Heading 4</h4>
-                </div>
-                <div>
-                  <h5 class="heading5">Heading 5</h5>
-                </div>
-            </textarea>
-        </div>
-      </div> <br /><br />
+      </div><br /><br />
       <div id="fontContainer">
         <div>
           <a name="fontsTarget"></a>
@@ -257,7 +268,7 @@
         <div class="formsDiv">
           <div>
             <p class="inputPara">(.dropdownInput)</p>
-            <label for="favFood">What is your favorite food?</label>
+            <label for="favFood" id="formLabel">What is your favorite food?</label>
             <select name="favFood" class="dropdownInput">
               <option value="pizza">Pizza</option>
               <option value="frenchFries">French Fries</option>
@@ -386,7 +397,7 @@
       </div>
       <div>
         <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
-          <textarea class="htmlCode" >
+          <textarea class="htmlCode" disabled>
             <div class="gridDiv">
               <div class="col col_1"></div>
               <div class="col col_5"></div>
@@ -442,9 +453,203 @@
           </textarea>
       </div>
     </div> <br /><br />
+    <div id="tableContainer">
+      <div>
+        <a name="tablesTarget"></a>
+        <h4>Tables:</h4>
+        <p>Style tables using class="table".</p>
+      </div>
+      <table class="table">
+        <tr>
+          <th>Size</th>
+          <th>Price</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>large</td>
+          <td>$5.82</td>
+          <td>$2.50</td>
+        </tr>
+        <tr>
+          <td>medium</td>
+          <td>$4.82</td>
+          <td>$2.00</td>
+        </tr>
+        <tr>
+          <td>small</td>
+          <td>$3.82</td>
+          <td>$1.50</td>
+        </tr>
+      </table><br /><br />
+      <div>
+       <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+        <textarea class="htmlCode" disabled>
+            <table class="table">
+              <tr>
+                <th>Size</th>
+                <th>Price</th>
+                <th>Cost</th>
+              </tr>
+              <tr>
+                <td>large</td>
+                <td>$5.82</td>
+                <td>$2.50</td>
+              </tr>
+              <tr>
+                <td>medium</td>
+                <td>$4.82</td>
+                <td>$2.00</td>
+              </tr>
+              <tr>
+                <td>small</td>
+                <td>$3.82</td>
+                <td>$1.50</td>
+              </tr>
+            </table>
+        </textarea>
+      </div>
+      <p>Also style tables using class="inputTable", class="rowDiv",and class="label".</p>
+        <div class="inputTable">
+          <div class="rowDiv">
+            <input type="text" value="Size" class="label" disabled>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </div>
+          <div class="rowDiv">
+            <input type="text" value="Price" class="label" disabled>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </div>
+          <div class="rowDiv">
+            <input type="text" value="Cost" class="label" disabled>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </div>
+          <div class="rowDiv">
+            <input type="text" value="Gross Profit" class="label" disabled>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </div>
+          <div class="rowDiv">
+            <input type="text" value="Net Profit" class="label" disabled>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </div>
+        </div>
+        <div>
+         <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <textarea class="htmlCode" disabled>
+            <div class="inputTable">
+              <div class="rowDiv">
+                <input type="text" value="Size"
+                class="label" disabled>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+              </div>
+              <div class="rowDiv">
+                <input type="text" value="Price"
+                class="label" disabled>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+              </div>
+              <div class="rowDiv">
+                <input type="text" value="Cost"
+                class="label" disabled>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+              </div>
+          </textarea>
+        </div>
+    </div>
+    <div id="listContainer">
+      <div>
+        <a name="listTarget"></a>
+        <h4>Lists::</h4>
+        <p>Style your lists with roman numerals or circle bullet points by using class="olList" or class="ulList", and put each list in a div and give it a class of "listDiv". </p>
+      </div>
+      <div class="listContainer">
+        <div class="listDiv">
+          <label>To Do Items:</label>
+          <ol class="olList">
+            <li>Laundry</li>
+            <li>Dishes</li>
+            <li>Vacuum</li>
+            <li>Trash</li>
+          </ol>
+        </div><br /><br />
+        <div class="listDiv">
+          <label>To Do Items:</label>
+          <ul class="ulList">
+            <li>Laundry</li>
+            <li>Dishes</li>
+            <li>Vacuum</li>
+            <li>Trash</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <textarea class="htmlCode" disabled>
+            <div class="listDiv">
+              <label>To Do Items:</label>
+              <ol class="olList">
+                <li>Laundry</li>
+                <li>Dishes</li>
+                <li>Vacuum</li>
+                <li>Trash</li>
+              </ol>
+            </div>
+            <div class="listDiv">
+              <label>To Do Items:</label>
+              <ul class="ulList">
+                <li>Laundry</li>
+                <li>Dishes</li>
+                <li>Vacuum</li>
+                <li>Trash</li>
+              </ul>
+            </div>
+          </textarea>
+      </div>
+    </div> <br /><br />
+    <div id="otherStylesContainer">
+      <div>
+        <a name="otherStylesTarget"></a>
+        <h4>Other Styles:</h4>
+        <p>Other styles include images, blockquotes, and a toggle button.</p>
+      </div>
+      <div>
+        <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+          <textarea class="htmlCode" disabled>
+            <div class="navBarContainer">
+              <div class="navBar">
+                <a src="#">Link1
+                </a>
+              </div>
+              <div class="navBar">
+                <a src="#">Link2
+                </a>
+              </div>
+              <div class="navBar">
+                <a src="#">Link3
+                </a>
+              </div>
+            </div>
+          </textarea>
+      </div>
+    </div> <br /><br />
     </main>
     <footer>
       @Copyright 2018
     </footer>
+    <script src="garageCSS.js">
+    </script>
   </body>
 </html>

@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="garageCSSWebsite.css">
   </head>
   <body>
-    <div id="libraryHeading1">
-      <h1>
-        GarageCSS
+    <div class="libraryHeading1">
+      <h1 id="webpageTitle">
+        <a href="project3Library.html" class="titleLink">GarageCSS</a>
       </h1>
+      <div id="iconDiv">
+        <i id="icon" class="fas fa-align-justify" width="1em"></i>
+      </div>
       <nav id="topNav">
         <div class="topNavDiv">
           <a href="project3Library.html#headingsTarget" class="topNavLink">Headings</a>
@@ -25,30 +29,42 @@
           <a href="project3Library.html#formsTarget" class="topNavLink">Forms</a>
         </div>
         <div class="topNavDiv">
+          <a href="project3Library.html#tablesTarget" class="topNavLink">Tables</a>
+        </div>
+        <div class="topNavDiv">
           <a href="project3Library.html#gridsTarget" class="topNavLink">Grids</a>
+        </div>
+        <div class="topNavDiv">
+          <a href="project3Library.html#otherStylesTarget" class="topNavLink">Other</a>
         </div>
       </nav>
     </div>
     <header>
       <nav id="bodyNav">
-        <ul>
-          <li class="navBtn">
-            <a href="project3LibraryDocumentationPage.html" target="_blank">Download</a>
-          </li>
-          <li class="navBtn">
-            <a href="project3Library.html">Documentation</a>
-          </li>
-        </ul>
+        <div class="navBtn" id="navBtnDownload">
+          <a href="project3LibraryDocumentationPage.html">Download</a>
+        </div>
+        <div class="navBtn" id="navBtnDocumentation">
+          <a href="project3Library.html#docHeadingTarget">Documentation</a>
+        </div>
       </nav>
     </header>
     <div class="downloadPara">
       <p>To download GarageCSS,click the link below:</p>
     </div>
     <div class="downloadPara">
-      <a href="garageCSS.css" download>CarageCSSversion1</a>
+      <a href="garageCSS.css" download>CarageCSS version 1</a>
+    </div><br /><br />
+    <div class="downloadPara">
+      <p>To download w3Schools file, click the link below:</p>
+    </div>
+    <div class="downloadPara">
+      <a href="w3Schools.css" download>w3Schools</a>
     </div>
     <footer id="footer2">
       @copyright 2018
     </footer>
+    <script src="garageCSS.js">
+    </script>
   </body>
 </html>
