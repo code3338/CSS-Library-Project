@@ -62,13 +62,15 @@
       <div  class="introPara">
         <h2>Getting Started:</h2>
         <ol class="introPara">
-          <li>Select the download button at the top of the page, and download the GarageCSS file.
+          <li>Select the download button at the top of this page, and then clicking the "GarageCSS version 1" link to download the GarageCSS .css file.
           </li>
           <li>In your HTML file, link the garageCSS.css file to the top of your HTML file.
           </li>
           <li>
-            If you choose to use the radio button styles, download the w3Schools.css file by selecting the download button at the top of this page.<br>
+            If you choose to use the radio button styles, download the w3Schools.css file by selecting the download button at the top of this page, and then clicking the "w3Schools" link to download the w3Schools .css file.<br>
             After downloading the file,add <xmp><link rel="stylesheet" href="w3Schools.css"></xmp> to the top of your HTML file.
+          </li>
+          <li>If you choose to use the toggle button download garageCSS.js file by selecting the download button at the top of this page, and then clicking the garageCSS.js link to download the GarageCSS JavaScript file. After downloading the file, add <xmp><link rel="stylesheet" href="garageCSS.js"></xmp> to the top of your HTML file.
           </li>
           <li>You are now ready to begin using GarageCSS.
           </li>
@@ -569,78 +571,132 @@
           </textarea>
         </div>
     </div>
-    <div id="listContainer">
+    <div id="otherStylesContainer">
       <div>
-        <a name="listTarget"></a>
-        <h4>Lists::</h4>
-        <p>Style your lists with roman numerals or circle bullet points by using class="olList" or class="ulList", and put each list in a div and give it a class of "listDiv". </p>
+        <a name="otherStylesTarget"></a>
+        <h4>Other Styles:</h4>
+        <p>Other styles include lists, images, blockquotes, and a toggle button.</p>
       </div>
-      <div class="listContainer">
-        <div class="listDiv">
-          <label>To Do Items:</label>
-          <ol class="olList">
-            <li>Laundry</li>
-            <li>Dishes</li>
-            <li>Vacuum</li>
-            <li>Trash</li>
-          </ol>
-        </div><br /><br />
-        <div class="listDiv">
-          <label>To Do Items:</label>
-          <ul class="ulList">
-            <li>Laundry</li>
-            <li>Dishes</li>
-            <li>Vacuum</li>
-            <li>Trash</li>
-          </ul>
+      <div id="listContainer">
+        <div>
+          <a name="listTarget"></a>
+          <h4>Lists::</h4>
+          <p>Style your lists with roman numerals or circle bullet points by using class="olList" or class="ulList", and put each list in a div and give it a class of "listDiv". </p>
+        </div>
+        <div class="listContainer">
+          <div class="listDiv">
+            <label>To Do Items:</label>
+            <ol class="olList">
+              <li>Laundry</li>
+              <li>Dishes</li>
+              <li>Vacuum</li>
+              <li>Trash</li>
+            </ol>
+          </div><br /><br />
+          <div class="listDiv">
+            <label>To Do Items:</label>
+            <ul class="ulList">
+              <li>Laundry</li>
+              <li>Dishes</li>
+              <li>Vacuum</li>
+              <li>Trash</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+            <textarea class="htmlCode" disabled>
+              <div class="listDiv">
+                <label>To Do Items:</label>
+                <ol class="olList">
+                  <li>Laundry</li>
+                  <li>Dishes</li>
+                  <li>Vacuum</li>
+                  <li>Trash</li>
+                </ol>
+              </div>
+              <div class="listDiv">
+                <label>To Do Items:</label>
+                <ul class="ulList">
+                  <li>Laundry</li>
+                  <li>Dishes</li>
+                  <li>Vacuum</li>
+                  <li>Trash</li>
+                </ul>
+              </div>
+            </textarea>
+        </div>
+      </div> <br /><br />
+      <div id="blockquoteContainer">
+        <div>
+          <h4>Blockquotes:</h4>
+          <p>Style your blockquotes using class "blockquote" or "blockquoteBefore"</p>
+        </div>
+        <div class="blockquoteContainer">
+          <p>Use class="blockquote" to get style below.</p>
+          <p>Here is a verse from BibleGateway</p>
+          <blockquote cite="https://www.biblegateway.com/passage/?search=John+14%3A6&version=ESV" class="blockquote">
+             "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things.""
+          </blockquote>
+          <p>Here is a verse from Martin Luther King jr.</p>
+          <blockquote cite="https://www.brainyquote.com/quotes/martin_luther_king_jr_101472" class="blockquote">
+            “Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.”
+          </blockquote>
+          <p>Use class="blockquoteBefore" to get style below.</p>
+          <p>Here is another verse from BibleGateway</p>
+          <blockquote class="blockquoteBefore">
+             Jesus said to him, “I am the way, and the truth, and the life. No one comes to the Father except through me.
+          </blockquote>
+        </div>
+        <div>
+          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+            <textarea class="htmlCode" disabled>
+              <div>
+                <p>verse from BibleGateway</p>
+                <blockquote class="blockquote">
+                   "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things.""
+                </blockquote>
+            </div>
+            </textarea>
+        </div>
+      </div> <br /><br />
+      <div id="imageContainer">
+        <div>
+          <h4>Images:</h4>
+          <p>Center your images and give it a border using class "imageCenter".</p>
+        </div>
+        <div class="imageContainer">
+          <div class="imageCenter">
+            <img src="https://i3.silhcdn.com/3/i/shapes/lg/4/8/d70384.jpg">
+          </div>
+        </div>
+        <div>
+          <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
+            <textarea class="htmlCode" disabled>
+              <div class="imageCenter">
+                <img src="#insertImageHere">
+              </div>
+            </textarea>
+        </div>
+      </div> <br /><br />
+      <div id="toggleButtonContainer"></div>
+      <div>
+        <h4>Toggle a button:</h4>
+        <p>Toggle a button using id="toggleBtn" and id="togglePara". If you would like to center the button put the button and the text paragraph in a div and give the div a class of "buttonDiv".</p>
+        <p>Don't forget, if using the toggle button functionality and style to add the garageCSS.js file to your script.</p>
+      </div>
+      <div class="toggleContainer">
+        <div class="buttonDiv">
+          <button id="toggleBtn">Toggle Button</button>
+          <p id="togglePara" style="display:none;">Text shows up here</p>
         </div>
       </div>
       <div>
         <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
           <textarea class="htmlCode" disabled>
-            <div class="listDiv">
-              <label>To Do Items:</label>
-              <ol class="olList">
-                <li>Laundry</li>
-                <li>Dishes</li>
-                <li>Vacuum</li>
-                <li>Trash</li>
-              </ol>
-            </div>
-            <div class="listDiv">
-              <label>To Do Items:</label>
-              <ul class="ulList">
-                <li>Laundry</li>
-                <li>Dishes</li>
-                <li>Vacuum</li>
-                <li>Trash</li>
-              </ul>
-            </div>
-          </textarea>
-      </div>
-    </div> <br /><br />
-    <div id="otherStylesContainer">
-      <div>
-        <a name="otherStylesTarget"></a>
-        <h4>Other Styles:</h4>
-        <p>Other styles include images, blockquotes, and a toggle button.</p>
-      </div>
-      <div>
-        <p class="tryItPara">Try it yourself! Copy and paste the markup below into your html page:</p>
-          <textarea class="htmlCode" disabled>
-            <div class="navBarContainer">
-              <div class="navBar">
-                <a src="#">Link1
-                </a>
-              </div>
-              <div class="navBar">
-                <a src="#">Link2
-                </a>
-              </div>
-              <div class="navBar">
-                <a src="#">Link3
-                </a>
-              </div>
+            <div class="buttonDiv">
+              <button id="toggleBtn">Toggle Button</button>
+              <p id="togglePara" style="display:none;">Input text here</p>
             </div>
           </textarea>
       </div>
@@ -649,7 +705,7 @@
     <footer>
       @Copyright 2018
     </footer>
-    <script src="garageCSS.js">
+    <script src="garageCSS1.js">
     </script>
   </body>
 </html>

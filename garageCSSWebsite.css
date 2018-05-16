@@ -323,7 +323,7 @@ pre {
 }
 
 /*Container backgrounds*/
-#headingsContainer, #headingsSizeContainer, #btnContainer, #formsContainer, #gridContainer, #fontContainer, #anchorContainer, #navbarContainer1, #tableContainer,#listContainer, #otherStylesContainer {
+#headingsContainer, #headingsSizeContainer, #btnContainer, #formsContainer, #gridContainer, #fontContainer, #anchorContainer, #navbarContainer1, #tableContainer,#listContainer, #otherStylesContainer, #blockquoteContainer, #imageContainer, #toggleButtonContainer {
   margin-bottom:5%;
   background-color: #80ccff;
   border-radius:4px;
@@ -620,6 +620,44 @@ body {
   margin:0px;
   margin-top:3px;
   padding:0px;
+}
+
+/*Blockquotes*/
+.blockquote {
+  border-left:9px solid #0099cc;
+  padding-left: 9px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+}
+.blockquoteBefore:before {
+   color:#80aaff;
+   content: open-quote;
+   font-size:3em;
+   margin-right:0.2em;
+   vertical-align:-0.3em;
+   line-height:0.2em;
+}
+
+/*Images*/
+.imageCenter {
+  margin:auto;
+  border:solid 2px blue;
+  width:250px;
+  border-width:1em;
+}
+
+/*Toggle button*/
+#toggleBtn {
+  margin:auto;
+}
+
+#togglePara {;
+  text-align:center;
+}
+
+.buttonDiv {
+  text-align:center;
+  margin:auto;
 }
 
 @media(max-width:320px) {
