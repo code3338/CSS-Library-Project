@@ -201,7 +201,7 @@ a:hover {
 /*Fonts*/
 @font-face {
   font-family:calista;
-  src:url(./calista_script/calista.ttf);
+  src:url(../fonts/calista_script/calista.ttf);
 }
 
 .calistaFont {
@@ -211,7 +211,7 @@ a:hover {
 
 @font-face {
   font-family: prettyFont;
-  src:url(./pretty_font/broken_heart.ttf);
+  src:url(../fonts/pretty_font/broken_heart.ttf);
 }
 
 .prettyFont {
@@ -221,7 +221,7 @@ a:hover {
 
 @font-face {
   font-family:basicSansSerifFont;
-  src:url(./basic_font/LemonMilk.otf);
+  src:url(../fonts/basic_font/LemonMilk.otf);
 }
 
 .basicFont {

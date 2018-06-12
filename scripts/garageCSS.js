@@ -7,7 +7,6 @@ toggleBtn.addEventListener("click", function() {
    togglePara.style.display="none";
  }
  else if(togglePara.style.display=="none") {
-   console.log('uytuyt');
    togglePara.style.display="block";
  }
 });
